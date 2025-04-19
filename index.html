@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Qbytz Engineering</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Nekko Tech Website Templates" name="keywords">
+    <meta content="Nekko Tech Website Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="/img/favicon.jpg">
+</head>
+
+<body>
+    <!-- Topbar Start 
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <h1 class="m-0"><span class="text-primary">Q</span>BYTZ</h1>
+                </a>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Our Office</h6>
+                        <small>No. 198, 2nd Floor,CMH Road, Second Stage, Indiranagar (Bangalore), Bangalore North, Bangalore- 560038, Karnataka</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
+                        <small>info@qbytz.com</small>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 text-right">
+                <div class="d-inline-flex align-items-center">
+                    <i class="fa fa-2x fa-phone text-primary mr-3"></i>
+                    <div class="text-left">
+                        <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
+                        <small>+012 345 6789</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Topbar End -->
+
+    <!-- Stylish Navbar Start -->
+<div class="container-fluid bg-white shadow-sm sticky-top">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light py-3">
+            <!-- Brand (mobile only) -->
+            <a class="navbar-brand d-lg-none fw-bold fs-3 text-primary" href="#">
+                <span class="text-dark">Q</span>BYTZ
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items -->
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <!-- Left Nav -->
+                <ul class="navbar-nav align-items-center gap-lg-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu border-0 shadow-sm animate__animated animate__fadeIn">
+                            <a class="dropdown-item" href="telecom.html">Telecom</a>
+                            <a class="dropdown-item" href="embedded.html">Embedded Software</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="course.html">Training</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="teacher.html">Careers</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="newsletter.html">Newsletter</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- Right Search Bar -->
+                <div class="search-container ml-auto d-flex align-items-center">
+                    <form action="">
+                        <input type="search" placeholder="Search Here...">
+                        <i class="fa fa-search"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Stylish Navbar End -->
+<style>
+    /* Modern Navbar Styling */
+.navbar-nav .nav-link {
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #007bff;
+}
+
+.dropdown-menu {
+    min-width: 180px;
+    border-radius: 8px;
+}
+
+/* Animate.css optional (for dropdown fade-in effect) */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+</style>
+
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="min-height: 300px;">
+                    <img class="position-relative w-100" src="img/carousel-1.jpg" style="min-height: 300px; object-fit: cover;">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
+                            <h1 class="display-3 text-white mb-md-4">Best Education From Your Home</h1>
+                            <a href="course.html" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="min-height: 300px;">
+                    <img class="position-relative w-100" src="img/carousel-2.jpg" style="min-height: 300px; object-fit: cover;">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
+                            <h1 class="display-3 text-white mb-md-4">Best Online Learning Platform</h1>
+                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="min-height: 300px;">
+                    <img class="position-relative w-100" src="img/carousel-3.jpg" style="min-height: 300px; object-fit: cover;">
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" style="width: 100%; max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-md-3">Best Online Courses</h5>
+                            <h1 class="display-3 text-white mb-md-4">New Way To Learn From Home</h1>
+                            <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <img class="img-fluid rounded mb-4 mb-lg-0" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <div class="text-left mb-4">
+                        <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">About Us</h5>
+                        <h1>Innovative Way To Learn</h1>
+                    </div>
+                    <p>At Qbytz, we specialize in powering the core of innovation — embedded systems and wireless telecom. We provide expert staff augmentation and targeted training solutions to help engineering teams move faster, smarter, and with greater precision. Whether it's 5G, IoT, or real-time embedded software, we bring the right talent and skills to meet mission-critical demands.
+
+                        With deep industry expertise and a passion for cutting-edge tech, we don't just fill roles — we build high-performance teams ready to engineer the future.</p>
+                    <a href="about.html" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Know More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Category Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Industries</h5>
+                <h1>Explore Top Offerings</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-2.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white font-weight-medium">Telecom</h5>
+                        <!---- <span>100 Courses</span>-->
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-1.webp" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white font-weight-medium">Embedded Software</h5>
+                            <!---- <span>100 Courses</span>-->
+                        </a>
+                    </div>
+                </div>
+               <!--- <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-3.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Game Design</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-4.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Apps Design</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-5.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Marketing</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-6.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Research</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-7.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">Content Writing</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="cat-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/cat-8.jpg" alt="">
+                        <a class="cat-overlay text-white text-decoration-none" href="">
+                            <h4 class="text-white font-weight-medium">SEO</h4>
+                            <span>100 Courses</span>
+                        </a>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!-- Category Start -->
+
+   <!-- Courses Start -->
+<div class="container-fluid py-5 bg-light spaced-section">
+    <style>
+        .spaced-section {
+            margin-top: 80px;
+        }
+
+        .course-card {
+            border: none;
+            border-radius: 1rem;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background-color: #fff;
+        }
+
+        .course-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            border-image: linear-gradient(to right, #ffffff, #ffffff) 1;
+        }
+
+        .course-card .card-img-top {
+            object-fit: cover;
+            height: 200px;
+        }
+
+        .course-card .card-body {
+            padding: 1.2rem 1rem;
+        }
+
+        .course-card .card-title a {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .course-card .card-title a:hover {
+            color: #4facfe;
+        }
+
+        .course-card .card-footer {
+            padding: 1rem;
+            border-top: 1px solid #eee;
+        }
+
+        .course-meta {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        .course-meta i {
+            margin-right: 5px;
+            color: #00c6ff;
+        }
+
+        .course-price {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .course-btn {
+            font-weight: 600;
+            border-radius: 0.5rem;
+        }
+
+        .tag-duration {
+            background: #eef7ff;
+            color: #007bff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 2rem;
+            font-size: 0.8rem;
+        }
+
+        .star-rating i {
+            color: #ffc107;
+        }
+    </style>
+
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Courses</h5>
+            <h1 class="display-5 fw-bold">Our Popular Courses</h1>
+        </div>
+
+        <div class="row g-4">
+            <!-- Course Card 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card course-card h-100">
+                    <img src="img/course-1.jpg" class="card-img-top" alt="6G Course">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="tag-duration"><i class="far fa-clock me-1"></i> 16h</span>
+                            <div class="star-rating">
+                                <i class="fa fa-star"></i> 4.5
+                            </div>
+                        </div>
+                        <h5 class="card-title">
+                            <a>6G Essential Training & Certification</a>
+                        </h5>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span class="course-price">Rs 10K</span>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@qbytz.com&su=Course Enrollment Request&body=I would like to enroll in the following course: 6G Essential Training & Certification." 
+   target="_blank" 
+   class="btn btn-outline-primary w-50 course-btn">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card course-card h-100">
+                    <img src="img/course-2.png" class="card-img-top" alt="5G Technology Certification">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="tag-duration"><i class="far fa-clock me-1"></i> 16h</span>
+                            <div class="star-rating">
+                                <i class="fa fa-star"></i> 4.5
+                            </div>
+                        </div>
+                        <h5 class="card-title">
+                            <a>5G Technology Certification</a>
+                        </h5>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span class="course-price">Rs 10K</span>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@qbytz.com&su=Course Enrollment Request&body=I would like to enroll in the following course: 6G Essential Training & Certification." 
+                        target="_blank" 
+                        class="btn btn-outline-primary w-50 course-btn">Enroll</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Course Card 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card course-card h-100">
+                    <img src="img/course-3.jpg" class="card-img-top" alt="5G Business Course">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <span class="tag-duration"><i class="far fa-clock me-1"></i> 16h</span>
+                            <div class="star-rating">
+                                <i class="fa fa-star"></i> 4.5
+                            </div>
+                        </div>
+                        <h5 class="card-title">
+                            <a>5G Essential for Business Executive</a>
+                        </h5>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center">
+                        <span class="course-price">Rs 10K</span>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=info@qbytz.com&su=Course Enrollment Request&body=I would like to enroll in the following course: 6G Essential Training & Certification." 
+   target="_blank" 
+   class="btn btn-outline-primary w-50 course-btn">Enroll</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Read More aligned to the right -->
+        <!-- Read More aligned to the right -->
+<div class="d-flex justify-content-end mt-4 w-100">
+    <a href="course.html" class="text-primary fw-semibold" style="text-decoration: none;">
+        Read More &gt;&gt;
+    </a>
+</div>
+
+    </div>
+</div>
+<!-- Courses End -->
+
+
+
+   <!-- Registration Start -->
+<div class="container-fluid bg-registration py-5 d-flex align-items-center justify-content-center" style="min-height: 100vh; margin: 0;">
+    <div class="col-lg-5">
+        <div class="card border-0">
+            <div class="card-header bg-light text-center p-4">
+                <h1 class="m-0">Sign Up Now</h1>
+            </div>
+            <div class="card-body rounded-bottom bg-primary p-5">
+                <form action="signup.php" method="POST">
+                    <div class="form-group mb-3">
+                        <input type="text" name="name" class="form-control border-0 p-4" placeholder="Your name" required />
+                    </div>
+                    <div class="form-group mb-3">
+                        <input type="email" name="email" class="form-control border-0 p-4" placeholder="Your email" required />
+                    </div>
+                    <div class="form-group mb-4">
+                        <select name="course" class="custom-select border-0 px-4" style="height: 47px;" required>
+                            <option selected disabled>Select a course</option>
+                            <option value="6G Essential Training & Certification">6G Essential Training & Certification</option>
+                            <option value="5G Technology Certification">5G Technology Certification</option>
+                            <option value="5G Essential for Business Executive">5G Essential for Business Executive</option>
+                            <option value="5G Technology Deep Dive">5G Technology Deep Dive</option>
+                            <option value="5G Protocol Testing & Log Analysis">5G Protocol Testing & Log Analysis</option>
+                            <option value="5G Development Certification">5G Development Certification</option>
+                            <option value="5G Core Overview Certification">5G Core Overview Certification</option>
+                            <option value="5G Core Deep Dive with Protocol Analysis">5G Core Deep Dive with Protocol Analysis</option>
+                            <option value="5G ORAN Certification">5G ORAN Certification</option>
+                            <option value="5G Telco Cloud Certification">5G Telco Cloud Certification</option>
+                            <option value="4G/5G Automation with Python & AI">4G/5G Automation with Python & AI</option>
+                            <option value="5G Network Optimization in Depth">5G Network Optimization in Depth</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button class="btn btn-dark btn-block border-0 py-3" type="submit">Sign Up Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Registration End -->
+
+
+
+    <!--Team Start 
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Teachers</h5>
+                <h1>Meet Our Teachers</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Jhon Doe</h5>
+                            <p class="m-0">Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Jhon Doe</h5>
+                            <p class="m-0">Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Jhon Doe</h5>
+                            <p class="m-0">Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center team mb-4">
+                    <div class="team-item rounded overflow-hidden mb-2">
+                        <div class="team-img position-relative">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                            <div class="team-social">
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-light btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        <div class="bg-secondary p-4">
+                            <h5>Jhon Doe</h5>
+                            <p class="m-0">Web Designer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Team End -->
+
+
+    <!-- Testimonial Start
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Testimonial</h5>
+                <h1>What Say Our Students</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-1.jpg" alt="">
+                            <h5 class="m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-2.jpg" alt="">
+                            <h5 class="m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-normal mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="img/testimonial-3.jpg" alt="">
+                            <h5 class="m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Testimonial End -->
+
+
+    <!-- Blog Start 
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-5">
+                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Our Blog</h5>
+                <h1>Latest From Our Blog</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/blog-1.jpg" alt="">
+                        <a class="blog-overlay text-decoration-none" href="">
+                            <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut clita</h5>
+                            <p class="text-primary m-0">Jan 01, 2050</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/blog-2.jpg" alt="">
+                        <a class="blog-overlay text-decoration-none" href="">
+                            <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut clita</h5>
+                            <p class="text-primary m-0">Jan 01, 2050</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="blog-item position-relative overflow-hidden rounded mb-2">
+                        <img class="img-fluid" src="img/blog-3.jpg" alt="">
+                        <a class="blog-overlay text-decoration-none" href="">
+                            <h5 class="text-white mb-3">Lorem elitr magna stet eirmod labore amet labore clita at ut clita</h5>
+                            <p class="text-primary m-0">Jan 01, 2050</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    Blog End -->
+
+
+    <!-- Stylish Footer Start -->
+<footer class="footer bg-dark text-white pt-5">
+    <div class="container px-4">
+        <div class="row gy-5">
+            <!-- Contact Info -->
+            <div class="col-lg-7">
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 2px;">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-2"></i>  No. 198, 2nd Floor, CMH Road, Second Stage, Indiranagar, Bangalore - 560038</p>
+                        <p><i class="fa fa-phone-alt me-2"></i></p>
+                        <p><i class="fa fa-envelope me-2"></i>  info@qbytz.com</p>
+                        <div class="d-flex gap-2 mt-3">
+                            <a class="btn btn-outline-light btn-square rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-square rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 2px;">Training</h5>
+                        <p class="text-white-50">6G Essential Training & Certification</p>
+                        <p class="text-white-50">5G Technology Certification</p>
+                        <p class="text-white-50">5G Essential for Business Executive</p>
+                        <p class="text-white-50">5G Technology Deep Dive</p>
+                        <p class="text-white-50">and more ....</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="col-lg-5">
+                <h5 class="text-primary text-uppercase mb-4" style="letter-spacing: 2px;">Newsletter</h5>
+                <p class="text-white-50">Subscribe to receive updates on services, training, and industry news.</p>
+                <form action="subscribe.php" method="POST">
+                    <div class="input-group rounded-pill overflow-hidden bg-white">
+                        <input type="email" name="email" class="form-control border-0 px-4 py-3" placeholder="Your Email Address" required>
+                        <button class="btn btn-primary px-4" type="submit">Sign Up</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="row mt-5 pt-4 border-top border-secondary">
+            <div class="col-md-6 text-center text-md-start">
+                <p class="mb-0">&copy; <a href="#" class="text-primary">Nekko Tech Solutions Private Limited</a>. All Rights Reserved. Designed by <a href="#" class="text-primary">Nekko Tech</a></p>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <ul class="nav justify-content-center justify-content-md-end gap-3">
+                    <li class="nav-item"><a class="nav-link text-white-50 py-0" href="privacy.html">Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link text-white-50 py-0" href="terms.html">Terms</a></li>
+                    <li class="nav-item"><a class="nav-link text-white-50 py-0" href="FAQS.html">FAQs</a></li>
+                    <li class="nav-item"><a class="nav-link text-white-50 py-0" href="help.html">Help</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Stylish Footer End -->
+<style>
+    /* Stylish Footer Enhancements */
+.footer {
+    background: linear-gradient(to right, #0f0f0f, #1a1a1a);
+    font-size: 15px;
+}
+
+.footer .btn-square {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.footer .btn-square:hover {
+    background: #007bff;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.footer .form-control:focus {
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.footer .nav-link:hover {
+    color: #007bff !important;
+    text-decoration: underline;
+}
+
+.footer input::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+</style>
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
